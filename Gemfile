@@ -7,6 +7,7 @@ gem 'jquery-rails'
 group :development do
 	gem 'pg'
 	gem 'rspec-rails'
+	gem 'webrat'
 end
 
 group :test do
