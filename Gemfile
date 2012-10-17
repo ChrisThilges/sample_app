@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'json'
 gem 'jquery-rails'
+gem 'pg'
 
 group :development do
-	gem 'pg'
 	gem 'rspec-rails'
 	gem 'webrat'
 end
