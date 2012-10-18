@@ -7,6 +7,7 @@ gem 'pg'
 gem 'bootstrap-sass'
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
+gem 'bcrypt-ruby'
 
 group :development do
 	gem 'rspec-rails'

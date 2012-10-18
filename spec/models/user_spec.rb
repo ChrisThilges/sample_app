@@ -14,8 +14,16 @@ require 'spec_helper'
 describe User do
 
   before(:each) do
-  	@attr = { :name => "Example User", :email => "user@example.com" }
+  	@attr = { :name => "Example User", :email => "user@example.com", :password => "foobar", :password_confirmation => "foobar" }
   end
+
+  it { should respond_to(:name) }
+  it { should respond_to(:email) }
+  it { should respond_to(:password_digest) }
+  #it { should respond_to(:password) }
+  #it { should respond_to(:password_confirmation) }
+
+  #it { should be_valid }
 
   it "should create a new instance given a valid attribute" do
   	User.create!(@attr)
