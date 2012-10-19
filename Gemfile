@@ -18,6 +18,7 @@ end
 group :test do
 	gem 'sqlite3'
 	gem 'rspec'
+	#gem 'factory_girl_rails'
 end
 
 group :assets do
