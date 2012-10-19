@@ -5,7 +5,6 @@ gem 'json'
 gem 'jquery-rails'
 gem 'pg'
 gem 'bootstrap-sass'
-gem 'therubyracer'
 gem 'less-rails-bootstrap'
 gem 'bcrypt-ruby'
 
@@ -22,6 +21,7 @@ group :test do
 end
 
 group :assets do
+  gem 'therubyracer'
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'uglifier'
